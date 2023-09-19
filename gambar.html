@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gambar</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="hyperlink.html">Hyperlink</a></li>
+            <li><a href="text-format.html">Text Format</a></li>
+            <li><a href="audio-video.html" target="_blank">Audio - Video</a></li>
+        </ul>
+    </nav>
+
+    <h1>Menambahkan Gambar</h1>
+
+    <!-- menambahkan gambar      => tag img -->
+
+    <!-- menambahkan gambar di lokasi yang sama dengan file html 
+        format:
+            <img src="namafile.ekstensi" alt="tulisan ketika gambar gagal dimuat" />
+    -->
+    <!-- skenario file gambar tidak ditemukan / typo -->
+    <img src="hacktiv8s.png" alt="Logo Hacktiv8" />
+
+    <!-- skenario sukses -->
+    <img src="hacktiv8.png" alt="Logo Hacktiv8" width="100px" />
+
+    <!-- menambahkan gambar di lokasi lebih dalam dari file html saat ini 
+        format:
+            <img src="namafolder/namafile.ekstensi" alt="tulisan ketika gambar gagal dimuat" />
+    -->
+
+    <img src="assets/prakerja.png" alt="Logo Prakerja" width="200px" />
+
+    <!-- menambahkan gambar di lokasi lebih dalam dari file html saat ini 
+        format:
+            <img src="namafolder1/namafolder2/namafile.ekstensi" alt="tulisan ketika gambar gagal dimuat" />
+    -->
+
+    <img src="assets/gambar/profile-picture.png" alt="Foto Profil" width="100px" />
+
+    <!-- menambahkan gambar di lokasi sebelum folder aktif file html saat ini 
+        format:
+            <img src="../namafile.ekstensi" alt="tulisan ketika gambar gagal dimuat" />     ==> 1 folder sebelum saat ini
+            <img src="../../namafile.ekstensi" alt="tulisan ketika gambar gagal dimuat" />     ==> 2 folder sebelum saat ini
+    -->
+
+    <img src="../bendera-indonesia.png" alt="Bendera Indonesia" width="100px" />
+
+    <!-- menambahkan gambar dari sumber eksternal / internet -->
+    <img src="https://storage.googleapis.com/danacita-website-v3-prd/website_v3/images/Hacktiv8-Say_YES_to_CODE-With_Danacita.width-800.jpg" alt="Hacktiv8" />
+
+
+</body>
+</html>
